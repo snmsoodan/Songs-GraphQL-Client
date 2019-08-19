@@ -9,14 +9,14 @@ class LyricList extends Component{
             variables: {
                 id
             },
-            optimisticResponse: {
+            optimisticResponse: {       //this object structure can be found in the networks tab in console
                 __typename: 'Mutation',
                 likeLyric: {
                     id,
                     __typename: 'LyricType',
                     likes: likes+1
                 }
-            }
+            } //Note: we do not refetch anymore as we changed the appoloClient object in index.js 
         })
     }
 
