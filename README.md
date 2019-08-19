@@ -1,2 +1,3 @@
 # Lyrical-GraphQL
-Starter project from a GraphQL course on Udemy.com
+
+Need to edit server/server.js with Mongo_URI 
